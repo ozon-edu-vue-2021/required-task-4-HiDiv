@@ -1,7 +1,11 @@
 <template>
-  <div id="app">
-    <Form />
-  </div>
+  <b-container id="app" fluid>
+    <b-row class="justify-content-center">
+      <b-col md="6">
+        <Form />
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
